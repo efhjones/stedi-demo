@@ -1,0 +1,19 @@
+
+@keyframes logoAnimation {
+  0% {fill: var(--stedi-grey)}
+  60% {fill: var(--stedi-blue)}
+  100% {fill: var(--stedi-green)}
+}
+
+.logo {
+  background-color: white;
+  z-index: 2;
+}
+
+.logo:hover {
+  fill: var(--stedi-green);
+  animation-duration: .2s;
+  animation-name: logoAnimation;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+}
