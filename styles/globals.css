@@ -14,3 +14,9 @@ a {
 * {
   box-sizing: border-box;
 }
+
+:root {
+  --stedi-green: #46c699;
+  --stedi-blue: #2c79c2;
+  --stedi-grey: #222222;
+}

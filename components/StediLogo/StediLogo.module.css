@@ -1,0 +1,27 @@
+
+@keyframes logoAnimation {
+  0% {fill: var(--stedi-blue)}
+  10% {fill: var(--stedi-green)}
+  20% {fill: var(--stedi-blue)}
+  30% {fill: var(--stedi-green)}
+  40% {fill: var(--stedi-blue)}
+  50% {fill: var(--stedi-green)}
+  60% {fill: var(--stedi-blue)}
+  70% {fill: var(--stedi-green)}
+  80% {fill: var(--stedi-blue)}
+  90% {fill: var(--stedi-green)}
+  100% {fill: var(--stedi-blue)}
+}
+
+.logo {
+  background-color: white;
+  z-index: 2;
+}
+
+.logo:hover {
+  fill: var(--stedi-green);
+  animation-duration: 3s;
+  animation-name: logoAnimation;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+}
