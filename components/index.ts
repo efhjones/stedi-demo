@@ -3,4 +3,8 @@ export { default as TreatmentA } from "./TreatmentA";
 export { default as TreatmentB } from "./TreatmentB";
 export { default as TreatmentC } from "./TreatmentC";
 export { default as DefaultMain } from "./DefaultMain";
-export { default as Nav } from './Nav'
+export { default as PriorityA } from "./PriorityA";
+export { default as PriorityB } from "./PriorityB";
+export { default as PriorityC } from "./PriorityC";
+export { default as DefaultPriority } from "./DefaultPriority";
+export { default as PriorityComponent } from "./PriorityComponent";
