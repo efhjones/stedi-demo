@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import { RecoilRoot } from "recoil";
-import { Nav } from "../components";
+import { Main, Nav } from "../components";
 import SlideOutAvatar from "../components/SlideOutAvatar";
 
 const Home: NextPage = () => {
@@ -17,7 +17,9 @@ const Home: NextPage = () => {
       </Head>
       <Nav />
       <SlideOutAvatar />
-      <main></main>
+      <main>
+        <Main />
+      </main>
     </RecoilRoot>
   );
 };
