@@ -10,7 +10,7 @@ const userData = selectorFamily({
       if (!userId) {
         return;
       }
-      get(count);
+      // get(count);
       try {
         const data = await fetch(
           `https://jsonplaceholder.typicode.com/users/${userId}`
@@ -29,7 +29,6 @@ const userData = selectorFamily({
 //     get: async ({ get }) => {
 //       const userId = get(currentUserId);
 //       get(count);
-//       debugger;
 //       try {
 //         const data = await fetch(
 //           `https://jsonplaceholder.typicode.com/users/${userId}`
@@ -51,7 +50,6 @@ const userData = selectorFamily({
 //   },
 //   effects_UNSTABLE: [
 //     ({ setSelf, getLoadable }) => {
-//       debugger;
 //       getLoadable(currentUserId)
 //         .toPromise()
 //         .then((userId) => {

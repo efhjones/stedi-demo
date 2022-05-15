@@ -6,11 +6,11 @@ import styles from "./Main.module.css";
 
 const Main = () => {
   const [currentUserID, setCurrentUserId] = useRecoilState(currentUserId);
-  const currentUserLoadable = useRecoilValueLoadable(
-    userDataLowercase(currentUserID)
-  );
+  const currentUserLoadable = useRecoilValueLoadable(userData(currentUserID));
   // const currentUserLoadable = useRecoilValueLoadable(userData);
-  // const currentUserLoadable = useRecoilValueLoadable(userData(currentUserID));
+  // const currentUserLoadable = useRecoilValueLoadable(
+  //   userDataLowercase(currentUserID)
+  // );
 
   const [currentCount, setCount] = useRecoilState(count);
   const changeUser = useCallback((id: number) => {
