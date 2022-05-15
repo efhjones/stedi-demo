@@ -36,3 +36,8 @@ button {
   cursor: pointer;
   font-size: 16px;
 }
+
+button:active {
+  background-color: black;
+  color: white;
+}
